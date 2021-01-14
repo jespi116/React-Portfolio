@@ -22,9 +22,9 @@ function Body(props){
     }
 
     return(
-        <div>
+        <section>
             {renderContent()}
-        </div>
+        </section>
     );
 }
 

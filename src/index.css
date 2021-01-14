@@ -21,7 +21,6 @@ header {
   height:200px;
   width: 100%;
   margin: 0;
-  color: #E8F1F2;
   background-color: #030F24;
   text-shadow: 2px 2px #030F24;
 }
@@ -60,6 +59,11 @@ body {
   color: white;
 }
 
+main{
+  position: relative;
+  min-height: 65vh;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
@@ -90,15 +94,39 @@ body {
   margin-left: calc(4rem);
 }
 
+.my-3 {
+  margin-top: calc(2rem);
+  margin-bottom: calc(2rem);
+}
+
 .my-5 {
   margin-top: calc(4rem);
   margin-bottom: calc(4rem);
+}
+
+.img{
+  width: 200px;
+  border: 4px solid #e8f1f2;
+}
+
+footer a img {
+  width: 64px;
+  margin: 0 calc(2rem);
+}
+
+p{
+  font-size: large;
+  font-weight: 400;
 }
 
 form {
   width: 40%;
   display: block;
   ;
+}
+
+section h1 {
+  font-size: xx-large;
 }
 
 label {
@@ -137,10 +165,9 @@ textarea {
 }
 
 .container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {

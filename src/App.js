@@ -25,7 +25,9 @@ function App() {
           currentCategory={currentCategory}
         />
       </header>
-      <Body currentCategory={currentCategory} />
+      <main>
+        <Body currentCategory={currentCategory} />
+      </main>
       <Footer />
     </div>
   );
