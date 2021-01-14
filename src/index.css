@@ -11,3 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  background: url(./assets/imgs/header.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: .9;
+  height:200px;
+  width: 100%;
+  margin: 0;
+  color: #E8F1F2;
+  background-color: #030F24;
+  text-shadow: 2px 2px #030F24;
+}
+
+.title {
+  opacity: 1;
+}
+
+li {
+  list-style: none;
+  opacity: 1;
+}
+
+nav li:hover {
+  text-decoration: none;
+  color: #0bb6ff;
+  font-weight: bolder;
+}
+
+nav  li {
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.navActive {
+  color: #f8d53a;
+}
+
+.navActive:hover {
+  color: #f8d53a;
+}
+
+body {
+  background-color: #575a4b;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+  justify-self: flex-end;
+}
+
+.mx-2 {
+  margin-right: calc(1.5rem);
+  margin-left: calc(1.5rem);
+}
+
+.mx-3 {
+  margin-right: calc(2rem);
+  margin-left: calc(2rem);
+}
+
+.mx-5 {
+  margin-right: calc(4rem);
+  margin-left: calc(4rem);
+}
+
+.my-5 {
+  margin-top: calc(4rem);
+  margin-bottom: calc(4rem);
+}
