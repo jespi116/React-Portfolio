@@ -1,10 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 code {
@@ -23,6 +19,11 @@ header {
   margin: 0;
   background-color: #030F24;
   text-shadow: 2px 2px #030F24;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .title {
@@ -68,10 +69,15 @@ main{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  
 }
 
 .space-between {
   justify-content: space-between;
+}
+
+.flex-start{
+  justify-content: flex-start;
 }
 
 .flex-end {
@@ -112,6 +118,79 @@ main{
 footer a img {
   width: 64px;
   margin: 0 calc(2rem);
+  filter: grayscale(100%);
+}
+
+footer a img:hover {
+  filter: contrast(120%);
+}
+
+.p{
+  text-indent: 50px;
+}
+
+.project-container{
+  position: relative;
+  margin: 30px 50px;
+  height: 250px;
+  width: 450px;
+}
+
+.project-img {
+  width:100%;
+  height: 100%;
+  position: relative;
+  border-radius: 5px;
+  -moz-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.project-container:hover .project-img{
+  filter: brightness(30%);
+  -webkit-transform: scale(.99);
+  -moz-transform: scale(.99);
+  -o-transform: scale(.99);
+  -ms-transform: scale(.99);
+  transform: scale(.99);
+}
+
+.project-text{
+  position:absolute;
+  top: 50px;
+  left: 50px;
+  color: white;
+  opacity: 0;
+}
+
+.project-container:hover .project-text{
+  opacity: 1;
+}
+
+.project-link{
+  text-decoration: none;
+  color: rgba(256, 256, 256, .6);
+}
+
+.project-link:hover{
+  color: rgba(256, 256, 256, 1);
+}
+
+.repo-link img{
+  width: 32px;
+  filter: invert(60%);
+  -webkit-filter: invert(60%);
+  margin: 0 30px;
+}
+
+.repo-link img:hover{
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.bold{
+  font-weight: 700;
+  font-size: x-large;
 }
 
 p{

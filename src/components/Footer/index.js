@@ -1,5 +1,5 @@
 import React from "react";
-import  ghIcon from '../../assets/imgs/github.png';
+import ghIcon from '../../assets/imgs/github.png';
 import emailIcon from '../../assets/imgs/email.png';
 import liIcon from '../../assets/imgs/linkedin.jpg';
 
