@@ -13,7 +13,7 @@ function App() {
     {name: 'Resume'}
   ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [currentCategory, setCurrentCategory] = useState(categories[0]); //initial state of 'About Me'
 
   return (
     <div>

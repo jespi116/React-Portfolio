@@ -1,6 +1,7 @@
 import React from "react";
 import img from '../../assets/imgs/me.jpg'
 
+//component about me
 
 function About(){
     return(

@@ -1,6 +1,8 @@
 import React from "react";
 import icon from '../../assets/imgs/github.png'
 
+//component for displaing the mapped project array passed from the portfolio component
+
 function Projects({project}){
     const { name, technologies, link, repo, src } = project;
 

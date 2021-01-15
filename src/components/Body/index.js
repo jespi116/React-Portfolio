@@ -4,6 +4,8 @@ import Portfolio from '../Portfolio'
 import Contact from '../Contact';
 import Resume from '../Resume';
 
+//component used for conditionally rendering body content based on current category
+
 function Body(props){
     const { currentCategory } = props;
 

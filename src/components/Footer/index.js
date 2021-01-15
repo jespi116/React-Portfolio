@@ -3,6 +3,8 @@ import ghIcon from '../../assets/imgs/github.png';
 import emailIcon from '../../assets/imgs/email.png';
 import liIcon from '../../assets/imgs/linkedin.jpg';
 
+//component with links to my github, email, and will update the linkedin when I create one soon
+
 function Footer(){
     return(
         <footer className="container">

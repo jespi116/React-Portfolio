@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #003852;
+  color: white;
 }
 
 code {
@@ -55,14 +57,10 @@ nav  li {
   color: #f8d53a;
 }
 
-body {
-  background-color: #575a4b;
-  color: white;
-}
-
 main{
   position: relative;
   min-height: 65vh;
+  border-top: 4px solid #e8f1f2;
 }
 
 .flex-row {
@@ -118,11 +116,12 @@ main{
 footer a img {
   width: 64px;
   margin: 0 calc(2rem);
-  filter: grayscale(100%);
+  filter: grayscale(100%) contrast(60%);
+  transition: all 0.3s;
 }
 
 footer a img:hover {
-  filter: contrast(120%);
+  filter: contrast(130%);
 }
 
 .p{
@@ -148,11 +147,11 @@ footer a img:hover {
 
 .project-container:hover .project-img{
   filter: brightness(30%);
-  -webkit-transform: scale(.99);
-  -moz-transform: scale(.99);
-  -o-transform: scale(.99);
-  -ms-transform: scale(.99);
-  transform: scale(.99);
+  -webkit-transform: scale(.98);
+  -moz-transform: scale(.98);
+  -o-transform: scale(.98);
+  -ms-transform: scale(.98);
+  transform: scale(.98);
 }
 
 .project-text{
@@ -193,6 +192,11 @@ footer a img:hover {
   font-size: x-large;
 }
 
+.ul li{
+  list-style: circle;
+  padding: 5px 0;
+}
+
 p{
   font-size: large;
   font-weight: 400;
@@ -211,6 +215,7 @@ section h1 {
 label {
   display:block;
   padding: 20px 0;
+  font-size: large;
 }
 
 input {

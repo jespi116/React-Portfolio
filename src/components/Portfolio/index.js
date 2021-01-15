@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Projects from '../Projects';
 
+//component for portfolio page
 
 function Portfolio(){
 
@@ -18,6 +19,13 @@ function Portfolio(){
             link: "https://homeplate-12345.herokuapp.com/",
             repo: "https://github.com/jespi116/Home-Plate",
             src: "homeplate.png"
+        },
+        {
+            name: 'Feast',
+            technologies: 'HTML/CSS/JAVASCRIPT',
+            link: "https://skelatorian.github.io/Feast/",
+            repo: "https://github.com/skelatorian/Feast",
+            src: "feast.png"
         }
     ])
 
