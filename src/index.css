@@ -296,7 +296,7 @@ button {
 @media screen and (max-width: 768px) {
   .project-container{
     margin: 30px 0;
-    height: 200px;
+    height: auto;
   }
 
   .mx-5{
