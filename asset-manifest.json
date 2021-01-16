@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.87213356.chunk.css",
+    "main.css": "/React-Portfolio/static/css/main.0d86bf59.chunk.css",
     "main.js": "/React-Portfolio/static/js/main.837d3b4d.chunk.js",
     "main.js.map": "/React-Portfolio/static/js/main.837d3b4d.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.0b406c71.js",
@@ -10,7 +10,7 @@
     "static/js/3.6a6400fe.chunk.js": "/React-Portfolio/static/js/3.6a6400fe.chunk.js",
     "static/js/3.6a6400fe.chunk.js.map": "/React-Portfolio/static/js/3.6a6400fe.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "static/css/main.87213356.chunk.css.map": "/React-Portfolio/static/css/main.87213356.chunk.css.map",
+    "static/css/main.0d86bf59.chunk.css.map": "/React-Portfolio/static/css/main.0d86bf59.chunk.css.map",
     "static/js/2.acb1ddd4.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.acb1ddd4.chunk.js.LICENSE.txt",
     "static/media/Screenshot.png": "/React-Portfolio/static/media/Screenshot.2e85aaa1.png",
     "static/media/email.png": "/React-Portfolio/static/media/email.c057771c.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.0b406c71.js",
     "static/js/2.acb1ddd4.chunk.js",
-    "static/css/main.87213356.chunk.css",
+    "static/css/main.0d86bf59.chunk.css",
     "static/js/main.837d3b4d.chunk.js"
   ]
 }
