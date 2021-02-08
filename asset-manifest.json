@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.0d86bf59.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.837d3b4d.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.837d3b4d.chunk.js.map",
-    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.0b406c71.js",
-    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.0b406c71.js.map",
+    "main.js": "/React-Portfolio/static/js/main.4add09bb.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.4add09bb.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.837f0dfd.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.837f0dfd.js.map",
     "static/js/2.acb1ddd4.chunk.js": "/React-Portfolio/static/js/2.acb1ddd4.chunk.js",
     "static/js/2.acb1ddd4.chunk.js.map": "/React-Portfolio/static/js/2.acb1ddd4.chunk.js.map",
-    "static/js/3.6a6400fe.chunk.js": "/React-Portfolio/static/js/3.6a6400fe.chunk.js",
-    "static/js/3.6a6400fe.chunk.js.map": "/React-Portfolio/static/js/3.6a6400fe.chunk.js.map",
+    "static/js/3.ecabb7e9.chunk.js": "/React-Portfolio/static/js/3.ecabb7e9.chunk.js",
+    "static/js/3.ecabb7e9.chunk.js.map": "/React-Portfolio/static/js/3.ecabb7e9.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/main.0d86bf59.chunk.css.map": "/React-Portfolio/static/css/main.0d86bf59.chunk.css.map",
     "static/js/2.acb1ddd4.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.acb1ddd4.chunk.js.LICENSE.txt",
@@ -19,12 +19,14 @@
     "static/media/homeplate.png": "/React-Portfolio/static/media/homeplate.1ca1c598.png",
     "static/media/linkedin.jpg": "/React-Portfolio/static/media/linkedin.8aa13c71.jpg",
     "static/media/me.jpg": "/React-Portfolio/static/media/me.adc55464.jpg",
-    "static/media/runbuddy.png": "/React-Portfolio/static/media/runbuddy.c78032a0.png"
+    "static/media/runbuddy.png": "/React-Portfolio/static/media/runbuddy.c78032a0.png",
+    "static/media/shop-shop.png": "/React-Portfolio/static/media/shop-shop.9ae979fa.png",
+    "static/media/vys.png": "/React-Portfolio/static/media/vys.3ef9a6a5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b406c71.js",
+    "static/js/runtime-main.837f0dfd.js",
     "static/js/2.acb1ddd4.chunk.js",
     "static/css/main.0d86bf59.chunk.css",
-    "static/js/main.837d3b4d.chunk.js"
+    "static/js/main.4add09bb.chunk.js"
   ]
 }
