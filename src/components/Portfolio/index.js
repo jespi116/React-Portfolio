@@ -8,24 +8,38 @@ function Portfolio(){
     const [projects] = useState([
         {
             name: 'Run Buddy',
-            technologies: 'HTML5/CSS3',
+            technologies: 'HTML/CSS',
             link: "https://jespi116.github.io/run-buddy/",
             repo: "https://github.com/jespi116/run-buddy",
             src: "runbuddy.png"
         },
         {
             name: 'Home Plate',
-            technologies: 'HTML/CSS/JAVASCRIPT/SQL',
+            technologies: 'HTML/CSS/JS/SQL',
             link: "https://homeplate-12345.herokuapp.com/",
             repo: "https://github.com/jespi116/Home-Plate",
             src: "homeplate.png"
         },
         {
             name: 'Feast',
-            technologies: 'HTML/CSS/JAVASCRIPT',
+            technologies: 'HTML/CSS/JS',
             link: "https://skelatorian.github.io/Feast/",
             repo: "https://github.com/skelatorian/Feast",
             src: "feast.png"
+        },
+        {
+            name: 'The VirtualYardSale',
+            technologies: 'MERN Stack',
+            link: "https://vysale.herokuapp.com/",
+            repo: "https://github.com/jespi116/vysale",
+            src: "vys.png"
+        },
+        {
+            name: 'Shop Shop',
+            technologies: 'MERN Stack',
+            link: "https://enigmatic-island-98076.herokuapp.com/",
+            repo: "https://github.com/jespi116/shop-shop",
+            src: "shop-shop.png"
         }
     ])
 

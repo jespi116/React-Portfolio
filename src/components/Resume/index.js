@@ -22,6 +22,7 @@ function Resume(){
                 <li>MYSQL, sequelize</li>
                 <li>MongoDB, Mongoose</li>
                 <li>REST</li>
+                <li>GraphQl</li>
             </ul>
         </section>
     );
