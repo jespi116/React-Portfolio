@@ -71,6 +71,15 @@ main{
   
 }
 
+.res {
+  text-decoration: none;
+  color: #e8f1f2;
+}
+
+.res:hover {
+  color: #0bb6ff;
+}
+
 .space-between {
   justify-content: space-between;
 }

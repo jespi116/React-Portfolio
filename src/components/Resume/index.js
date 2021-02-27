@@ -4,6 +4,7 @@ function Resume(){
     return(
         <section className="mx-5 my-3">
             <h1>Resume</h1>
+            <h3><a className="res" href="https://docs.google.com/document/d/1QOTK-O-ba4JcvnQr0m0Wj2YMJEzB4WcTiMr4mHtC4qI/edit?usp=sharing">Resume Link</a></h3>
             <h3>Front-End Proficiencies</h3>
             <ul className="ul">
                 <li>HTML</li>
