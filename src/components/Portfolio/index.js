@@ -21,11 +21,11 @@ function Portfolio(){
             src: "homeplate.png"
         },
         {
-            name: 'Feast',
-            technologies: 'HTML/CSS/JS',
-            link: "https://skelatorian.github.io/Feast/",
-            repo: "https://github.com/skelatorian/Feast",
-            src: "feast.png"
+            name: 'Weather Dashboard',
+            technologies: 'HTML/CSS/JS/API',
+            link: "https://jespi116.github.io/weather-dashboard/",
+            repo: "https://github.com/jespi116/weather-dashboard",
+            src: "Weather.png"
         },
         {
             name: 'The VirtualYardSale',

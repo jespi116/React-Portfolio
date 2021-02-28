@@ -72,12 +72,13 @@ main{
 }
 
 .res {
+  padding: 0 20px;
   text-decoration: none;
-  color: #e8f1f2;
+  color: #13e1fc;
 }
 
 .res:hover {
-  color: #0bb6ff;
+  color: #f8d53a;
 }
 
 .space-between {

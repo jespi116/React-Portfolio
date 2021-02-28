@@ -11,10 +11,10 @@ function Footer(){
             <a href="https://github.com/jespi116">
                 <img src={ghIcon} alt='github link' />
             </a>
-            <a href="mailto: jaaavier12333@gmail.com">
+            <a href="mailto: PortfolioJE001@gmail.com">
                 <img src={emailIcon} alt='email link' />
             </a>
-            <a href="https://linkedin.com">
+            <a href="https://www.linkedin.com/in/javierespinosa-001/">
                 <img src={liIcon} alt='linkedin link' />
             </a>
         </footer>
