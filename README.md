@@ -12,6 +12,7 @@ Checkout my previous work in this stylish webpage I designed myself using React 
 * HTML5
 * CSS3
 * React
+* email-js
 
 <br>
 
