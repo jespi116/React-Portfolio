@@ -60,15 +60,15 @@ nav  li {
 
 main{
   position: relative;
-  min-height: 65vh;
+  min-height: 70vh;
   border-top: 4px solid #e8f1f2;
 }
 
 .flex-row {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  
 }
 
 .res {
@@ -139,11 +139,15 @@ footer a img:hover {
   text-indent: 50px;
 }
 
+.container {
+  width: 45%;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
 .project-container{
   position: relative;
-  margin: 30px 50px;
-  height: 250px;
-  width: 450px;
+  margin: 30px 10px;
 }
 
 .project-img {
@@ -167,9 +171,10 @@ footer a img:hover {
 
 .project-text{
   position:absolute;
-  top: 50px;
-  left: 50px;
+  top: 30px;
+  left: 40px;
   opacity: 0;
+  max-width: 85%;
 }
 
 .project-container:hover .project-text{
@@ -297,17 +302,25 @@ button {
 	padding: 10px 15px;	
 }
 
+@media screen and (max-width: 1200px) {
+  .project-container{
+    margin: 20px 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 980px) {
   form {
     width: 65%
   }
+
+  
 }
 
 @media screen and (max-width: 768px) {
-  .project-container{
-    margin: 30px 0;
-    height: auto;
-  }
 
   .mx-5{
     margin-right: calc(2rem);
