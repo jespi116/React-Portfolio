@@ -16,7 +16,8 @@ header {
   background-size: cover;
   background-position: center;
   opacity: .9;
-  height:200px;
+  min-height:200px;
+  max-height: 320px;
   width: 100%;
   margin: 0;
   color: white;
@@ -329,5 +330,11 @@ button {
 
   form {
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .desc {
+    display: none;
   }
 }
